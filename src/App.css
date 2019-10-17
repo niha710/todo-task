@@ -1,11 +1,39 @@
+html, body, #root, .App {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  margin-left: -50px
+}
+.wrapper {
+  width: 150px;
+  background-color: yellow;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
+ul {
+  text-align: left;
+  padding-left: 10px;
 }
 
+input {
+  margin-right: 10px ;
+}
+
+li {
+  list-style-type: none;
+  background-color: lightblue;
+  width: 130px;
+  height: 30px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
