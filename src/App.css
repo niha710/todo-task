@@ -2,7 +2,7 @@ html, body, #root, .App {
   height: 100%;
 }
 
-.App {
+#root{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -17,34 +17,15 @@ h4 {
   padding: 10px;
 }
 
-ul {
-  text-align: left;
-  padding-left: 10px;
+button {
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 3px ;
 }
+
 
 input {
   margin-right: 10px ;
+  margin-top: 10px;
 }
 
-li {
-  list-style-type: none;
-  background-color: lightblue;
-  width: 130px;
-  height: 30px;
-  padding-top: 5px;
-  margin-bottom: 5px;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
